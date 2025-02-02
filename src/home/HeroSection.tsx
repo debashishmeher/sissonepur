@@ -1,5 +1,5 @@
 import  { useState, useEffect } from "react";
-import { ChevronDown, ChevronLeft, ChevronRight } from "lucide-react";
+import {  ChevronLeft, ChevronRight } from "lucide-react";
 
 const slides = [
   {

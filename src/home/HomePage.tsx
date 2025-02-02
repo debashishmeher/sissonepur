@@ -3,9 +3,9 @@ import TopBar from "./TopBar";
 import Navigation from "./Navigation";
 import HeroSection from "./HeroSection";
 import AboutSection from "./AboutSection";
-import NotificationsSection from "./NotificationsSection";
+// import NotificationsSection from "./NotificationsSection";
 import EventsSection from "./EventsSection";
-import TeachersSection from "./TeachersSection";
+// import TeachersSection from "./TeachersSection";
 import GallerySection from "./GallerySection";
 import Footer from "./Footer";
 

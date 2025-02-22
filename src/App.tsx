@@ -8,6 +8,8 @@ import {
 import { useLayoutEffect } from "react";
 import { HelmetProvider } from "react-helmet-async";
 import LoadingSpinner from "./components/LoadingSpinner";
+import SchoolInfo from "./mandatory/Mandatory";
+import MandatoryPage from "./mandatory/MandatoryPage";
 
 // Lazy load all pages
 const HomePage = React.lazy(() => import("./home/HomePage"));
@@ -53,6 +55,7 @@ export default function App() {
             <Route path="/academic" element={<AcademicPage />} />
             <Route path="/events" element={<EventsPage />} />
             <Route path="/gallery" element={<GalleryPage />} />
+            <Route path="/mandatory" element={<MandatoryPage />} />
           </Routes>
         </Suspense>
       </Router>

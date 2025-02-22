@@ -22,13 +22,13 @@ export default function AboutSection() {
           <div className="space-y-8">
             <div className="space-y-4">
               <h2 className="inline-block text-primary-600 text-sm font-medium tracking-wider uppercase relative group">
-                ABOUT SUKANTI
+                ABOUT US
                 <div className="h-0.5 w-full bg-gradient-to-r  from-gray-600 via-green-500 transform origin-left group-hover:scale-x-110 transition-transform duration-300" />
               </h2>
               <h3 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900">
-                Nurturing Excellence Since
+              WHY SUKANTI INTERNATIONAL SCHOOL
                 <span className="block text-transparent bg-clip-text bg-gradient-to-r  from-gray-600 via-green-500">
-                  1990
+                  
                 </span>
               </h3>
               <p className="text-gray-600 text-base sm:text-lg leading-relaxed">

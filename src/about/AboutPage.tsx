@@ -15,12 +15,12 @@ export default function AboutPage() {
     <div className="min-h-screen flex flex-col">
       <Helmet>
         <title>About Us - SUKANTI | Our History & Vision</title>
-        <meta name="description" content="Learn about SUKANTI's rich history, mission, vision, and commitment to educational excellence since 1990. Discover our achievements and dedicated faculty." />
+        <meta name="description" content="Learn about SUKANTI's rich history, mission, vision, and commitment to educational excellence . Discover our achievements and dedicated faculty." />
         <meta name="keywords" content="SUKANTI history, school mission, vision, educational philosophy, school achievements, faculty, academic excellence" />
-        <link rel="canonical" href="https://sukantiacademy.com/about" />
-        <meta property="og:title" content="About SUKANTI - Excellence in Education Since 1990" />
+        <link rel="canonical" href="https://sissonepur.com/about" />
+        <meta property="og:title" content="About SUKANTI - Excellence in Education " />
         <meta property="og:description" content="Discover our journey of excellence in education, our values, and our commitment to nurturing the next generation of leaders." />
-        <meta property="og:url" content="https://sukantiacademy.com/about" />
+        <meta property="og:url" content="https://sissonepur.com/about" />
       </Helmet>
       <TopBar />
       <Navigation />

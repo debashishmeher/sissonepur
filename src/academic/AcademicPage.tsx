@@ -25,13 +25,13 @@ export default function AcademicPage() {
           name="keywords"
           content="academic programs, school curriculum, teaching methodology, CBSE curriculum, academic excellence, education quality"
         />
-        <link rel="canonical" href="https://sukantiacademy.com/academic" />
+        <link rel="canonical" href="https://sissonepur.com/academic" />
         <meta property="og:title" content="Academic Programs at SUKANTI" />
         <meta
           property="og:description"
           content="Discover our comprehensive academic programs designed to nurture intellectual growth and prepare students for future success."
         />
-        <meta property="og:url" content="https://sukantiacademy.com/academic" />
+        <meta property="og:url" content="https://sissonepur.com/academic" />
       </Helmet>
       <TopBar />
       <Navigation />

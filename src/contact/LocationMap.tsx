@@ -20,9 +20,9 @@ export default function LocationMap() {
         </div>
 
         {/* Map Container */}
-        <div className="relative h-[400px] md:h-[500px] rounded-2xl overflow-hidden shadow-lg">
+        <div className="relative h-[400px] md:h-[400px] rounded-2xl overflow-hidden shadow-lg">
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.1!2d-73.985!3d40.748!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zM40zMCc0OC4wIk4gNzPCsDU5JzA2LjAiVw!5e0!3m2!1sen!2sus!4v1620000000000!5m2!1sen!2sus"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3728.7843037843045!2d83.8610247851833!3d20.84041478746773!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a23e70b2dc26269%3A0x664d0ac35954b1a9!2sSukanti%20International%20School!5e0!3m2!1sen!2sin!4v1740219400014!5m2!1sen!2sin"
             width="100%"
             height="100%"
             style={{ border: 0 }}

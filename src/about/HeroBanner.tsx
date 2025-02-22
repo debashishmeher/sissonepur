@@ -30,9 +30,9 @@ export default function HeroBanner() {
             <span className="text-white">About Us</span>
           </div>
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6">
-            Shaping Future Leaders Since
+            Shaping Future Leaders 
             <span className="block text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-lime-400">
-              1990
+              
             </span>
           </h1>
           <p className="text-gray-300 text-lg max-w-2xl">

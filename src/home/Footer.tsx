@@ -1,4 +1,6 @@
-import React from "react";
+import logo from '../photos/logo.jpg';
+
+
 import {
   GraduationCap,
   MapPin,
@@ -44,7 +46,7 @@ export default function Footer() {
             <div className="flex items-center gap-2 group">
               <div className="relative w-12 h-12">
                 <img
-                  src="https://scontent-bom2-3.xx.fbcdn.net/v/t39.30808-1/304784131_545741720685397_6898752098845042170_n.jpg?stp=dst-jpg_s200x200_tt6&_nc_cat=110&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=_hw1wNbojxIQ7kNvgEZ7Zpb&_nc_oc=AdgPEUO_v_CSdK_HNpSaSWFCdBhaGxGAm-DVT3E-s5fsLiX_dRiGr9jHNjZHr_w2SXA&_nc_zt=24&_nc_ht=scontent-bom2-3.xx&_nc_gid=AFZMSraLQCz732MHSjAivma&oh=00_AYASJ9FwDpeqjHJCHVDijRjiyh67cR2gOff_her_PwuyBQ&oe=678758D7"
+                  src={logo}
                   alt="SUKANTI Logo"
                   className="w-full h-full object-cover rounded-full group-hover:scale-110 transition-transform duration-500"
                 />
@@ -52,14 +54,14 @@ export default function Footer() {
               </div>
               <div>
                 <h2 className="text-xl font-bold text-white">
-                  SUKANTI
+                  SUKANTI INTERNATIONAL SCHOOL
                 </h2>
                 <p className="text-sm text-gray-400">Excellence in Education</p>
               </div>
             </div>
             <p className="text-sm leading-relaxed">
               Empowering minds and shaping futures through quality education
-              since 1990. Join us on a journey of discovery, innovation, and
+              . Join us on a journey of discovery, innovation, and
               academic excellence.
             </p>
             <div className="space-y-4">
@@ -128,48 +130,51 @@ export default function Footer() {
                   className="text-primary-400 flex-shrink-0 mt-1"
                 />
                 <span className="text-sm">
-                  Demo Address
+                  Dhubamunda, S.Kalapathar, Sonepur, Odisha, PIN-767017
                 </span>
               </div>
               <div className="flex items-center gap-3">
                 <Phone size={20} className="text-primary-400" />
-                <span className="text-sm">+1 (234) 567-8900</span>
+                <a href='tel:+91 76840 43075' className="text-sm">+91 76840 43075 </a>
+                <a href='tel:+91 98277 53075' className="text-sm">+91 98277 53075 </a>
               </div>
               <div className="flex items-center gap-3">
                 <Mail size={20} className="text-primary-400" />
-                <span className="text-sm">contact@sukantiacademy.com</span>
+                <a href='mailto:sissonepur2015@gmail.com' className="text-sm">sissonepur2015@gmail.com</a>
               </div>
               <div className="flex items-center gap-3">
                 <Clock size={20} className="text-primary-400" />
-                <span className="text-sm">Mon - Fri: 8:00 AM - 5:00 PM</span>
+                <span className="text-sm">Mon - Sat: 9:00 AM - 4:00 PM </span>
               </div>
             </div>
-            <div className="flex gap-4">
-              <a
-                href="#"
-                className="text-gray-400 hover:text-primary-400 transition-colors duration-300"
-              >
-                <Facebook size={20} />
-              </a>
-              <a
-                href="#"
-                className="text-gray-400 hover:text-primary-400 transition-colors duration-300"
-              >
-                <Twitter size={20} />
-              </a>
-              <a
-                href="#"
-                className="text-gray-400 hover:text-primary-400 transition-colors duration-300"
-              >
-                <Instagram size={20} />
-              </a>
-              <a
-                href="#"
-                className="text-gray-400 hover:text-primary-400 transition-colors duration-300"
-              >
-                <Youtube size={20} />
-              </a>
-            </div>
+            <div className="flex flex-wrap items-center gap-4 mt-4">
+  <a
+    href="https://www.facebook.com/profile.php?id=61566854695733" target='_blank'
+    className="text-gray-400 hover:text-primary-400 transition-colors duration-300"
+  >
+    <Facebook size={24} />
+  </a>
+  <a
+    href="https://www.instagram.com/sukanti_int_school_" target='_blank'
+    className="text-gray-400 hover:text-primary-400 transition-colors duration-300"
+  >
+    <Instagram size={24} />
+  </a>
+  <a
+    href="https://www.youtube.com/@sukantiinternationalschool1578" target='_blank'
+    className="text-gray-400 hover:text-primary-400 transition-colors duration-300"
+  >
+    <Youtube size={24} />
+  </a>
+  <a
+    href="https://wa.me/qr/6X3MSJFAVBMSF1" target='_blank'
+    className="bg-green-500 text-white px-4 py-2 rounded-full flex items-center gap-2 font-medium hover:bg-green-600 transition-all duration-300 shadow-md"
+  >
+    <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" className="w-5 h-5" />
+    WhatsApp Us
+  </a>
+</div>
+
           </div>
         </div>
       </div>
@@ -183,19 +188,19 @@ export default function Footer() {
             </p>
             <div className="flex gap-6 text-sm">
               <a
-                href="#"
+                href="/"
                 className="hover:text-primary-400 transition-colors duration-300"
               >
                 Privacy Policy
               </a>
               <a
-                href="#"
+                href="/"
                 className="hover:text-primary-400 transition-colors duration-300"
               >
                 Terms of Service
               </a>
               <a
-                href="#"
+                href="/"
                 className="hover:text-primary-400 transition-colors duration-300"
               >
                 Cookie Policy
@@ -204,6 +209,14 @@ export default function Footer() {
           </div>
         </div>
       </div>
+      <a
+  href="https://wa.me/qr/6X3MSJFAVBMSF1" target='_blank'
+  className="fixed bottom-4 right-4 bg-green-500 text-white px-4 py-2 rounded-full flex items-center gap-2 font-medium hover:bg-green-600 transition-all duration-300 shadow-lg"
+>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" className="w-5 h-5" />
+  WhatsApp Us
+</a>
+
     </footer>
     // created by GigaX - WEES PATEL
 

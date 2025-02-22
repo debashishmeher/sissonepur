@@ -8,10 +8,13 @@ const navItems = [
   { name: 'ACADEMIC', path: '/academic' },
   // { name: 'INFRASTRUCTURE', path: '/infrastructure' },
   { name: 'EVENTS', path: '/events' },
+  { name: 'MANDATORY', path: '/mandatory' },
+
   // { name: 'ACHIEVEMENT', path: '/achievement' },
   { name: 'GALLERY', path: '/gallery' },
   { name: 'CONTACT', path: '/contact' }
 ];
+import logo from '../photos/logo.jpg';
 
 export default function Navigation() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -25,8 +28,8 @@ export default function Navigation() {
           <Link to="/" className="flex items-center gap-2 md:gap-3 group">
             <div className="relative w-10 h-10 md:w-12 md:h-12 lg:w-14 lg:h-14">
               {/* logo */}
-              <img
-                src="https://scontent-bom2-3.xx.fbcdn.net/v/t39.30808-1/304784131_545741720685397_6898752098845042170_n.jpg?stp=dst-jpg_s200x200_tt6&_nc_cat=110&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=_hw1wNbojxIQ7kNvgEZ7Zpb&_nc_oc=AdgPEUO_v_CSdK_HNpSaSWFCdBhaGxGAm-DVT3E-s5fsLiX_dRiGr9jHNjZHr_w2SXA&_nc_zt=24&_nc_ht=scontent-bom2-3.xx&_nc_gid=AFZMSraLQCz732MHSjAivma&oh=00_AYASJ9FwDpeqjHJCHVDijRjiyh67cR2gOff_her_PwuyBQ&oe=678758D7"
+              <img src={logo}
+
                 alt="SUKANTI Logo"
                 className="w-full h-full object-cover rounded-full group-hover:scale-110 transition-transform duration-500"
               />
@@ -35,9 +38,9 @@ export default function Navigation() {
             </div>
             <div>
               <h1 className="text-lg md:text-xl lg:text-2xl font-bold bg-gradient-to-r from-primary-600 to-primary-500 bg-clip-text text-transparent group-hover:scale-105 transition-transform duration-300">
-                SUKANTI
+                SUKANTI INTERNATIONAL <p>SCHOOL</p> 
               </h1>
-              <p className="text-xs md:text-sm text-primary-600">Excellence in Education</p>
+              <p className="text-xs md:text-sm text-primary-600">Affiliated to CBSE New Delhi</p>
             </div>
           </Link>
 

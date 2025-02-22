@@ -15,10 +15,10 @@ export default function EventsPage() {
         <title>Events - SUKANTI | School Activities & Celebrations</title>
         <meta name="description" content="Stay updated with SUKANTI's upcoming events, celebrations, and activities. Join us for academic competitions, cultural festivals, and sports tournaments." />
         <meta name="keywords" content="school events, cultural activities, sports events, academic competitions, annual day, school calendar" />
-        <link rel="canonical" href="https://sukantiacademy.com/events" />
+        <link rel="canonical" href="https://sissonepur.com/events" />
         <meta property="og:title" content="Events & Activities at SUKANTI" />
         <meta property="og:description" content="Stay updated with our upcoming events, celebrations, and activities that enrich our school community." />
-        <meta property="og:url" content="https://sukantiacademy.com/events" />
+        <meta property="og:url" content="https://sissonepur.com/events" />
       </Helmet>
       <TopBar />
       <Navigation />

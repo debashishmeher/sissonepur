@@ -5,34 +5,34 @@ const events = [
   {
     title: "Annual Science Exhibition",
     image: "https://images.unsplash.com/photo-1564069114553-7215e1ff1890?auto=format&fit=crop&q=80",
-    paragraph: "All Students  I am dsgd Empowering minds and shaping futures through quality education since 1990. Join us on a journey of discovery, innovation, and academic excellence.",
+    paragraph: "All Students  I am dsgd Empowering minds and shaping futures through quality education . Join us on a journey of discovery, innovation, and academic excellence.",
     category: "Academic"
   },
   {
     title: "Inter-School Sports Meet",
 
     image: "https://images.unsplash.com/photo-1517649763962-0c623066013b?auto=format&fit=crop&q=80",
-    paragraph: "Selected Athlete Empowering minds and shaping futures through quality education since 1990. Join us on a journey of discovery, innovation, and academic excellence.s",
+    paragraph: "Selected Athlete Empowering minds and shaping futures through quality education . Join us on a journey of discovery, innovation, and academic excellence.s",
     category: "Sports"
   },
   {
     title: "Cultural Festival 2024",
 
     image: "https://images.unsplash.com/photo-1514525253161-7a46d19cd819?auto=format&fit=crop&q=80",
-    paragraph: "All Student Empowering minds and shaping futures through quality education since 1990. Join us on a journey of discovery, innovation, and academic excellence.s",
+    paragraph: "All Student Empowering minds and shaping futures through quality education . Join us on a journey of discovery, innovation, and academic excellence.s",
     category: "Cultural"
   }
 ];
 
 export default function EventsSection() {
   return (
-    <section className="py-20 bg-white">
+    <section className="py-20 bg-gray-100">
       <div className="container mx-auto px-4">
         {/* Section Header */}
         <div className="text-center mb-12">
           <div className="inline-flex items-center justify-center gap-2 bg-blue-100 px-3 py-1 rounded-full mb-4">
             <Calendar size={16} className="text-primary-600" />
-            <span className="text-primary-600 text-sm font-medium">Upcoming Events</span>
+            <span className="text-primary-600 text-sm font-medium">Events</span>
           </div>
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
             School Events & Activities
@@ -74,22 +74,22 @@ export default function EventsSection() {
                     <p className='text-sm'>{event.paragraph}</p>
                   </div>
                 </div>
-                <button className="w-full flex items-center justify-center gap-2 bg-gray-50 hover:bg-blue-50 text-primary-600 font-medium py-3 rounded-xl transition-colors duration-300">
+                {/* <button className="w-full flex items-center justify-center gap-2 bg-gray-50 hover:bg-blue-50 text-primary-600 font-medium py-3 rounded-xl transition-colors duration-300">
                   View Details
                   <ArrowRight size={18} />
-                </button>
+                </button> */}
               </div>
             </div>
           ))}
         </div>
 
         {/* View All Button */}
-        <div className="text-center mt-12">
+        {/* <div className="text-center mt-12">
           <button className="inline-flex items-center gap-2 bg-green-600 hover:bg-blue-700 text-white font-medium px-8 py-3 rounded-xl transition-colors duration-300">
             View All Events
             <ArrowRight size={20} />
           </button>
-        </div>
+        </div> */}
       </div>
     </section>
     // created by GigaX - WEES PATEL

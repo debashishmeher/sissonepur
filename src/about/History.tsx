@@ -3,7 +3,7 @@ import { History as HistoryIcon, Award, Users, MapPin } from 'lucide-react';
 
 const milestones = [
   {
-    year: "1990",
+    year: "",
     title: "Foundation",
     description: "Established with a vision to provide quality education",
     icon: MapPin

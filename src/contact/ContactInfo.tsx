@@ -3,24 +3,28 @@ import { MapPin, Phone, Mail, Clock, MessageCircle } from 'lucide-react';
 
 const contactInfo = [
   {
+    href:"https://maps.app.goo.gl/HyNMZHzeB5hnnwG97",
     icon: MapPin,
     title: "Visit Us",
-    details: ["123 Education Street", "Academic District", "Learning City, 12345"]
+    details: ["Dhubamunda, S.Kalapathar, Sonepur, Odisha, PIN-767017"]
   },
   {
+    href:"tel:+91 76840 43075",
     icon: Phone,
     title: "Call Us",
-    details: ["+1 (234) 567-8900", "+1 (234) 567-8901"]
+    details: ["+91 76840 43075" , "+91 98277 53075"]
   },
   {
+    href:"mailto:sissonepur2015@gmail.com",
     icon: Mail,
     title: "Email Us",
-    details: ["contact@sukantiacademy.com", "admissions@sukantiacademy.com"]
+    details: ["sissonepur2015@gmail.com"]
   },
   {
+    href:"#",
     icon: Clock,
     title: "Working Hours",
-    details: ["Monday - Friday: 8:00 AM - 5:00 PM", "Saturday: 9:00 AM - 1:00 PM"]
+    details: ["Monday - Friday: 9:00 AM - 4:00 PM", "Saturday: 9:00 AM - 1:00 PM"]
   }
 ];
 
@@ -45,7 +49,9 @@ export default function ContactInfo() {
         {/* Contact Info Grid */}
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
           {contactInfo.map((info, index) => (
-            <div 
+            <a 
+              href={info.href}
+              target="_blank"
               key={index}
               className="group bg-white rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 p-6 border border-gray-100"
             >
@@ -60,7 +66,7 @@ export default function ContactInfo() {
                   ))}
                 </div>
               </div>
-            </div>
+            </a>
           ))}
         </div>
       </div>

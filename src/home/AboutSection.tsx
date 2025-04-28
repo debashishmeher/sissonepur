@@ -2,10 +2,10 @@ import React from 'react';
 import { Users, BookOpen, Trophy, Target } from 'lucide-react';
 
 const stats = [
-  { icon: Users, label: 'Students', value: '2500+' },
-  { icon: BookOpen, label: 'Courses', value: '50+' },
+  { icon: Users, label: 'Students', value: '750+' },
+  { icon: BookOpen, label: 'Courses', value: '25+' },
   { icon: Trophy, label: 'Awards', value: '100+' },
-  { icon: Target, label: 'Success Rate', value: '95%' }
+  { icon: Target, label: 'Success Rate', value: '100%' }
 ];
 
 export default function AboutSection() {

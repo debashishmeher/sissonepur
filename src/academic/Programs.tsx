@@ -42,9 +42,9 @@ export default function Programs() {
         {/* Stats */}
         <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mt-16">
           {[
-            { icon: Users, value: "2500+", label: "Students" },
-            { icon: BookOpen, value: "50+", label: "Subjects" },
-            { icon: Clock, value: "8:1", label: "Student-Teacher Ratio" },
+            { icon: Users, value: "750+", label: "Students" },
+            { icon: BookOpen, value: "25+", label: "Subjects" },
+            { icon: Clock, value: "12:1", label: "Student-Teacher Ratio" },
             { icon: Award, value: "100%", label: "Pass Rate" },
           ].map((stat, index) => (
             <div key={index} className="bg-white p-6 text-center">

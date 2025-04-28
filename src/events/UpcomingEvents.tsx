@@ -1,32 +1,48 @@
 import { Calendar, Clock, MapPin, ArrowRight } from 'lucide-react';
-
+import foodFest from "../photos/foodFest.jpg";
+import annualSports from "../photos/annualSports.jpg";
+import science from "../photos/science.jpg";
+import functions from "../photos/function.jpg";
 const events = [
   {
     title: "Annual Science Exhibition",
-    date: "March 25, 2024",
+    date: "Octaber 26, 2024-25",
     time: "9:00 AM - 4:00 PM",
     location: "School Auditorium",
-    image: "https://images.unsplash.com/photo-1564069114553-7215e1ff1890?auto=format&fit=crop&q=80",
+    image: science,
     category: "Academic",
-    description: "Showcasing innovative science projects by our talented students"
+    description: "Showcasing innovative science projects by our talented students",
+    link:"https://www.instagram.com/reel/DBlDNkhAOdw/?igsh=MWRjamxvdzlzcXZibg"
   },
   {
-    title: "Inter-School Sports Meet",
-    date: "April 5-7, 2024",
+    title: "Annual Athletic Meet",
+    date: "November 29-30, 2024",
     time: "8:00 AM - 6:00 PM",
     location: "Sports Complex",
-    image: "https://images.unsplash.com/photo-1517649763962-0c623066013b?auto=format&fit=crop&q=80",
+    image: annualSports,
     category: "Sports",
-    description: "Annual sports competition featuring multiple disciplines"
+    description: "Join us for two thrilling days of athletic excellence, team spirit, and fierce competition across a wide range of sports and events at the Annual Athletic Meet!",
+    link:"https://www.facebook.com/share/r/1AFChULyCv/"
   },
   {
     title: "Cultural Festival 2024",
-    date: "April 15, 2024",
-    time: "5:00 PM - 9:00 PM",
+    date: "December 23, 2024-25",
+    time: "11:30 AM - 9:30 PM",
     location: "Main Campus",
-    image: "https://images.unsplash.com/photo-1514525253161-7a46d19cd819?auto=format&fit=crop&q=80",
+    image: functions,
     category: "Cultural",
-    description: "A celebration of art, music, and cultural performances"
+    description: "A celebration of art, music, and cultural performances",
+    link:"https://www.instagram.com/reel/DELu-NyTXql/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA"
+  },
+  {
+    title: "Annual Food Festival 2024",
+    date: "April 13, 2025",
+    time: "9:00 AM - 12:30 PM",
+    location: "Main Campus",
+    image: foodFest,
+    category: "Food & Culinary",
+    description: "Come and enjoy a vibrant showcase of international cuisines, local delicacies, cooking demonstrations, and fun food contests at our Annual Food Festival!",
+    link:"https://www.facebook.com/share/r/18wPyCQgEp/"
   }
 ];
 
@@ -88,10 +104,10 @@ export default function UpcomingEvents() {
                     <span>{event.location}</span>
                   </div>
                 </div>
-                <button className="w-full mt-6 flex items-center justify-center gap-2 bg-gray-50 hover:bg-blue-50 text-primary-600 font-medium py-3 rounded-xl transition-colors duration-300">
+                <a href={event.link} target="_blank" className="w-full mt-6 flex items-center justify-center gap-2 bg-gray-50 hover:bg-blue-50 text-primary-600 font-medium py-3 rounded-xl transition-colors duration-300">
                   Learn More
                   <ArrowRight size={18} />
-                </button>
+                </a>
               </div>
             </div>
           ))}

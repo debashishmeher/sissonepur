@@ -1,7 +1,7 @@
 import React, { useMemo, useCallback, useState } from "react";
 import { Image as ImageIcon, Filter, X, ChevronLeft, ChevronRight } from "lucide-react";
 
-const categories = ["All", "Campus", "Events", "Sports", "Activities", "Functions"] as const;
+const categories = ["All","Academic", "Campus", "Events", "Sports", "Activities", "Functions"] as const;
 type Category = typeof categories[number];
 
 interface GalleryItem {
@@ -10,7 +10,8 @@ interface GalleryItem {
   title: string;
 }
 
-import g1 from "../photos/g1.png";
+import science1 from "../photos/science1.png";
+import science2 from "../photos/science2.png";
 import g2 from "../photos/g2.png";
 import g3 from "../photos/g3.png";
 import g4 from "../photos/g4.png";
@@ -20,7 +21,8 @@ import g7 from "../photos/g7.png";
 import g8 from "../photos/g8.png";
 
 const galleryItems: GalleryItem[] = [
-  { image: g1, category: "Functions", title: "Science" },
+  { image: science1, category: "Academic", title: "Science" },
+  { image: science2, category: "Academic", title: "Science" },
   { image: g2, category: "Functions", title: "Annual Functions" },
   { image: g3, category: "Sports", title: "Basketball Court" },
   { image: g4, category: "Events", title: "Awards" },

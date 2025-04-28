@@ -1,21 +1,20 @@
-import React, { useState, useEffect } from "react";
+import  { useState, useEffect } from "react";
 import { ChevronDown, ChevronLeft, ChevronRight } from "lucide-react";
 import Banner1 from "../photos/banner1.jpg";
+import Banner2 from "../photos/banner2.jpg";
 import { Link } from "react-router-dom";
 
 const slides = [
-  // {
-  //   image: Banner1,
-
-
-  //   title: "Education Is The",
-  //   highlight: "Key To Success",
-  //   description:
-  //     "Empowering minds and shaping futures through quality education. Join us on a journey of discovery, innovation, and academic excellence.",
-  // },
+   {
+    image: Banner1,
+    title: "Education Is The",
+    highlight: "Key To Success",
+    description:
+      "Empowering minds and shaping futures through quality education. Join us on a journey of discovery, innovation, and academic excellence.",
+  },
   {
     image:
-      "https://www.sukantiacademy.com/assets/hero-DF3MPTHJ.jpg?auto=format&fit=crop&q=80",
+      Banner2,
     title: "Shaping Tomorrow's",
     highlight: "Education is the best key to success in life",
     description:
@@ -104,8 +103,8 @@ export default function HeroSection() {
             <div className="absolute inset-0 flex flex-col justify-center items-center text-center px-4 md:px-6 lg:px-8">
               <div className="max-w-7xl mx-auto w-full transform translate-y-[-10%] space-y-4 md:space-y-6">
                 {/* Welcome Text */}
-                <h2 className="text-green-400 text-sm md:text-base lg:text-lg tracking-wider uppercase mb-2 animate-fade-in">
-                  Welcome to SUKANTI School
+                <h2 className="text-green-300 text-sm md:text-base lg:text-lg tracking-wider uppercase mb-2 animate-fade-in ">
+                  Welcome to SUKANTI International School
                 </h2>
                 
                 {/* Main Title */}

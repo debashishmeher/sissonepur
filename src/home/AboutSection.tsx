@@ -1,5 +1,11 @@
-import React from 'react';
+
 import { Users, BookOpen, Trophy, Target } from 'lucide-react';
+import{  homeAbout1,
+  homeAbout2,
+  homeAbout3,
+  homeAbout4,
+} from "../photos/photo"
+
 
 const stats = [
   { icon: Users, label: 'Students', value: '750+' },
@@ -59,14 +65,14 @@ export default function AboutSection() {
             <div className="space-y-4">
               <div className="aspect-[4/5] rounded-2xl overflow-hidden shadow-lg transform hover:-translate-y-2 transition-transform duration-300">
                 <img 
-                  src="https://images.unsplash.com/photo-1427504494785-3a9ca7044f45?auto=format&fit=crop&q=80" 
+                  src={homeAbout1} 
                   alt="Students studying" 
                   className="w-full h-full object-cover"
                 />
               </div>
               <div className="aspect-[4/3] rounded-2xl overflow-hidden shadow-lg transform hover:-translate-y-2 transition-transform duration-300">
                 <img 
-                  src="https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&q=80" 
+                  src={homeAbout2} 
                   alt="Classroom discussion" 
                   className="w-full h-full object-cover"
                 />
@@ -75,14 +81,14 @@ export default function AboutSection() {
             <div className="space-y-4 mt-8">
               <div className="aspect-[4/3] rounded-2xl overflow-hidden shadow-lg transform hover:-translate-y-2 transition-transform duration-300">
                 <img 
-                  src="https://images.unsplash.com/photo-1562774053-701939374585?auto=format&fit=crop&q=80" 
+                  src={homeAbout4} 
                   alt="Laboratory work" 
                   className="w-full h-full object-cover"
                 />
               </div>
               <div className="aspect-[4/5] rounded-2xl overflow-hidden shadow-lg transform hover:-translate-y-2 transition-transform duration-300">
                 <img 
-                  src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&q=80" 
+                  src={homeAbout3} 
                   alt="Group project" 
                   className="w-full h-full object-cover"
                 />

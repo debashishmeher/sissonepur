@@ -23,7 +23,7 @@ export default function Navigation() {
   return (
     <nav className="bg-white shadow-lg sticky top-0 z-50">
       <div className="container mx-auto px-4">
-        <div className="flex justify-between items-center h-16 md:h-20 lg:h-24">
+        <div className="flex justify-between items-center ">
           {/* Logo */}
           <Link to="/" className="flex items-center gap-2 md:gap-3 group">
             <div className="relative w-10 h-10 md:w-12 md:h-12 lg:w-14 lg:h-14">
@@ -33,14 +33,12 @@ export default function Navigation() {
                 alt="SUKANTI Logo"
                 className="w-full h-full object-cover rounded-full group-hover:scale-110 transition-transform duration-500"
               />
-              {/* logo end */}
-              <div className="absolute inset-0 bg-green-600/10 group-hover:bg-green-600/20 transition-colors duration-500 rounded-full" />
             </div>
             <div>
-              <h1 className="text-lg md:text-xl lg:text-2xl font-bold bg-gradient-to-r from-primary-600 to-primary-500 bg-clip-text text-transparent group-hover:scale-105 transition-transform duration-300">
-                SUKANTI INTERNATIONAL <p>SCHOOL</p> 
+              <h1 className="text-lg md:text-xl lg:text-xl font-bold text-black">
+                SUKANTI INTERNATIONAL <p>SCHOOL</p>
               </h1>
-              <p className="text-xs md:text-sm text-primary-600">Affiliated to CBSE New Delhi</p>
+              <p className="text-xs md:text-sm text-gray-900">Affiliated to CBSE New Delhi</p>
             </div>
           </Link>
 

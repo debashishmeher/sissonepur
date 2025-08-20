@@ -1,9 +1,9 @@
-import React from 'react';
+
 import { ChevronRight } from 'lucide-react';
 
 export default function HeroBanner() {
   return (
-    <div className="relative min-h-[400px] bg-gradient-to-br from-gray-900 via-green-900 to-gray-900 flex items-center">
+    <div className="relative min-h-[400px] bg-gradient-to-br from-gray-900 text-transparent to-gray-900 flex items-center">
       {/* Background Pattern */}
       <div className="absolute inset-0 opacity-30">
         <div className="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAiIGhlaWdodD0iNjAiIHZpZXdCb3g9IjAgMCA2MCA2MCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxnIGZpbGw9IiNmZmYiIGZpbGwtb3BhY2l0eT0iMC4xIj48cGF0aCBkPSJNMzYgMzBoLTJWMTBoMnYyMHptLTIgMGgtMlYxMGgydjIwek0zMCAzMGgtMlYxMGgydjIweiIvPjwvZz48L2c+PC9zdmc+')] opacity-20" />

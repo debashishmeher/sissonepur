@@ -1,9 +1,9 @@
-import React from 'react';
+
 import { MapPin, Clock, Mail, Facebook, Instagram, Youtube } from 'lucide-react';
 
 export default function TopBar() {
   return (
-    <div className="bg-gradient-to-r from-primary-600 to-primary-700 text-white py-2 md:py-3">
+    <div className="bg-[#87CEFA] text-white py-2 md:py-3">
       <div className="container mx-auto flex flex-col md:flex-row justify-between items-center px-4">
         <div className="flex flex-col sm:flex-row items-center gap-3 sm:gap-6 mb-2 md:mb-0">
           <div className="flex items-center gap-2 text-xs sm:text-sm">

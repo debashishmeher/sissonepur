@@ -15,25 +15,43 @@ function HomePage() {
   return (
     <div className="min-h-screen flex flex-col">
       <Helmet>
-        <title>Sukanti International School</title>
+        <title>Sukanti International School Sonepur</title>
         <meta
           name="description"
-          content="Welcome to SUKANTI, where education meets excellence. Discover our programs, facilities, and achievements designed to inspire and nurture young minds."
+          content="Sukanti International School in Sonepur, Odisha offers premium CBSE curriculum education with modern facilities, experienced faculty, and holistic development programs for students."
         />
         <meta
           name="keywords"
-          content="SUKANTI, quality education, school in [Location], student success, modern facilities, nurturing excellence"
+          content="Sukanti International School, best CBSE school Sonepur, English medium school Odisha, top schools in Sonepur, quality education Sonepur, CBSE school Odisha, international standard school Sonepur"
         />
         <link rel="canonical" href="https://sissonepur.com/" />
-        <meta property="og:title" content="Welcome to SUKANTI" />
+        <meta
+          property="og:title"
+          content="Sukanti International School - Premier CBSE Education in Sonepur, Odisha"
+        />
         <meta
           property="og:description"
-          content="SUKANTI offers a holistic education experience, fostering creativity, knowledge, and excellence in every student."
+          content="Discover excellence in education at Sukanti International School, offering CBSE curriculum with modern facilities and holistic development programs in Sonepur."
         />
         <meta property="og:url" content="https://sissonepur.com/" />
         <meta
           property="og:image"
-          content="https://sissonepur.com/assets/images/home-banner.jpg"
+          content="https://sissonepur.com/src/photos/banner1.jpg"
+        />
+        <meta property="og:type" content="website" />
+        <meta property="og:site_name" content="Sukanti International School" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta
+          name="twitter:title"
+          content="Sukanti International School - Premier CBSE Education in Sonepur"
+        />
+        <meta
+          name="twitter:description"
+          content="Top-ranked English medium CBSE school in Sonepur, Odisha with modern facilities and experienced faculty."
+        />
+        <meta
+          name="twitter:image"
+          content="https://sissonepur.com/src/photos/banner1.jpg"
         />
       </Helmet>
       <TopBar />
@@ -41,7 +59,7 @@ function HomePage() {
 
       <HeroSection />
       <AboutSection />
-      
+
       <EventsSection />
       {/* <TeachersSection /> */}
       <GallerySection />

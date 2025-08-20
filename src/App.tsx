@@ -8,7 +8,7 @@ import {
 import { useLayoutEffect } from "react";
 import { HelmetProvider } from "react-helmet-async";
 import LoadingSpinner from "./components/LoadingSpinner";
-import SchoolInfo from "./mandatory/Mandatory";
+// import SchoolInfo from "./mandatory/Mandatory";
 import MandatoryPage from "./mandatory/MandatoryPage";
 
 // Lazy load all pages

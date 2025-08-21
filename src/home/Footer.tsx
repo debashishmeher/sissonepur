@@ -1,6 +1,4 @@
 import logo from '../photos/logo.jpg';
-
-
 import {
   GraduationCap,
   MapPin,

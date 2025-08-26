@@ -14,6 +14,7 @@ interface GalleryItem {
 // Images
 import science1 from "../photos/science1.png";
 import science2 from "../photos/science2.png";
+import g1 from "../photos/g1.png";
 import g2 from "../photos/g2.png";
 import g3 from "../photos/g3.png";
 import g4 from "../photos/g4.png";
@@ -21,18 +22,35 @@ import g5 from "../photos/g5.png";
 import g6 from "../photos/g6.png";
 import g7 from "../photos/g7.png";
 import g8 from "../photos/g8.png";
+import g9 from "../photos/g9.jpg";
+import g10 from "../photos/g10.jpg";
+import g11 from "../photos/g11.jpg";
+import g12 from "../photos/g12.jpg";
+import g13 from "../photos/g13.jpg";
+import g14 from "../photos/g14.jpg";
+import g15 from "../photos/g15.jpg";
+import g16 from "../photos/g16.jpg";
 
 // Gallery Data
 const galleryItems: GalleryItem[] = [
   { image: science1, category: "Academic", title: "Science" },
   { image: science2, category: "Academic", title: "Science" },
-  { image: g2, category: "Functions", title: "Annual Functions" },
-  { image: g3, category: "Sports", title: "Basketball Court" },
-  { image: g4, category: "Events", title: "Awards" },
-  { image: g5, category: "Activities", title: "Art & Craft Workshop" },
-  { image: g6, category: "Campus", title: "Modern Classrooms" },
-  { image: g7, category: "Functions", title: "March" },
-  { image: g8, category: "Sports", title: "Indoor Sports Complex" },
+  { image: g1, category: "Activities", title: "Guitar Class" },
+  { image: g2, category: "Activities", title: "1KM Tiranga Rally" },
+  { image: g3, category: "Events", title: "Food Festival" },
+  { image: g4, category: "Campus", title: "Campus" },
+  { image: g5, category: "Events", title: "Science Exhibition" },
+  // { image: g6, category: "Activities", title: "Yoga Day" },
+  { image: g7, category: "Activities", title: "Human Chain Ganpati" },
+  { image: g8, category: "Sports", title: "Annual Sports" },
+  { image: g9, category: "Activities", title: "Guitar Class" },
+  { image: g10, category: "Activities", title: "Yoga Class" },
+  { image: g11, category: "Sports", title: "Indoor Sports Complex" },
+  { image: g12, category: "Sports", title: "Colouring Activity" },
+  { image: g13, category: "Sports", title: "Indoor Sports Complex" },
+  { image: g14, category: "Campus", title: "SIS" },
+  { image: g15, category: "Campus", title: "Prayer Class" },
+  { image: g16, category: "Activities", title: "Sand Art" },
 ];
 
 // Category Filter
@@ -77,7 +95,7 @@ const GalleryGridItem = React.memo(
   }) => (
     <div
       className={`group relative ${
-        index % 5 === 0 || index % 5 === 3 ? "lg:col-span-2 lg:row-span-2" : ""
+        index % 6 === 0 || index % 6 === 3 ? "lg:col-span-2 lg:row-span-2" : ""
       }`}
       onClick={() => onImageClick(index)}
     >

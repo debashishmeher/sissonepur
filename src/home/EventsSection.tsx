@@ -1,24 +1,27 @@
 
 import { Calendar, ArrowRight } from 'lucide-react';
+import science1 from "../photos/science1.png";
+import g8 from "../photos/g8.png";
+import functionss from "../photos/function.jpg";
 
 const events = [
   {
     title: "Annual Science Exhibition",
-    image: "https://images.unsplash.com/photo-1564069114553-7215e1ff1890?auto=format&fit=crop&q=80",
+    image: science1,
     paragraph: "All Students  I am dsgd Empowering minds and shaping futures through quality education . Join us on a journey of discovery, innovation, and academic excellence.",
     category: "Academic"
   },
   {
     title: "Inter-School Sports Meet",
 
-    image: "https://images.unsplash.com/photo-1517649763962-0c623066013b?auto=format&fit=crop&q=80",
+    image: g8,
     paragraph: "Selected Athlete Empowering minds and shaping futures through quality education . Join us on a journey of discovery, innovation, and academic excellence.s",
     category: "Sports"
   },
   {
     title: "Cultural Festival 2024",
 
-    image: "https://images.unsplash.com/photo-1514525253161-7a46d19cd819?auto=format&fit=crop&q=80",
+    image: functionss,
     paragraph: "All Student Empowering minds and shaping futures through quality education . Join us on a journey of discovery, innovation, and academic excellence.s",
     category: "Cultural"
   }

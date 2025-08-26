@@ -42,7 +42,7 @@
   margin-bottom: 15px;
   position: relative;
 }
-.heading-before::after {
+/* .heading-before::after {
   content: "";
   height: 2px;
   width: 10vw;
@@ -50,7 +50,7 @@
   position: absolute;
   top: 50%;
   left: 110%;
-}
+} */
 .heading {
   color: white;
   font-size: clamp(2rem, 8vw, 3rem);

@@ -8,7 +8,7 @@ const navItems = [
   { name: 'ACADEMIC', path: '/academic' },
   // { name: 'INFRASTRUCTURE', path: '/infrastructure' },
   { name: 'EVENTS', path: '/events' },
-  { name: 'MANDATORY', path: '/mandatory' },
+  { name: 'MANDATORY PUBLIC DISCLOSURE', path: '/mandatory' },
 
   // { name: 'ACHIEVEMENT', path: '/achievement' },
   { name: 'GALLERY', path: '/gallery' },
@@ -48,7 +48,7 @@ export default function Navigation() {
               <Link
                 key={item.name}
                 to={item.path}
-                className={`text-gray-700 hover:text-primary-600 font-medium relative group py-2 text-sm xl:text-base transition-colors duration-300 ${
+                className={`text-gray-700 hover:text-primary-600 font-medium relative group py-2 text-sm xl:text-base transition-colors duration-300 text-center ${
                   location.pathname === item.path ? 'text-primary-600' : ''
                 }`}
               >

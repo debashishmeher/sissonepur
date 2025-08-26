@@ -1,12 +1,10 @@
 import logo from '../photos/logo.jpg';
 import {
-  GraduationCap,
   MapPin,
   Phone,
   Mail,
   Clock,
   Facebook,
-  Twitter,
   Instagram,
   Youtube,
   ChevronRight,

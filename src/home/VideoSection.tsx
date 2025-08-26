@@ -14,7 +14,7 @@ export default function VideoSection() {
       {/* Content */}
       <div className="relative z-10 text-center px-6">
         <h1 className="text-4xl md:text-6xl font-extrabold leading-tight">
-          Experience Excellence <br /> <span className="text-green-400">At Sukanti Academy</span>
+          Experience Excellence <br /> <span className="text-green-400">At Sukanti International School</span>
         </h1>
         <p className="mt-4 text-lg md:text-xl max-w-2xl mx-auto text-gray-200">
           Join a future-driven community where innovation meets education. Explore world-class 

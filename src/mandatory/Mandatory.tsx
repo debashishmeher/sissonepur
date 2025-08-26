@@ -6,6 +6,11 @@ import deocert from "../doc/DEO.pdf"
 import water from "../doc/Water.pdf"
 import safety from "../doc/safety.pdf"
 import fire from "../doc/fire.pdf"
+import fee from "../doc/fee.pdf"
+import smc from "../doc/smc.pdf"
+import pta from "../doc/pta.pdf"
+import result from "../doc/result.pdf"
+import calender from "../doc/calender.pdf"
 
 const SchoolInfo = () => {
   return (
@@ -88,20 +93,28 @@ const SchoolInfo = () => {
         </h2>
         <table className="w-full border border-gray-300 text-left text-sm md:text-base">
           <tbody>
+
             {[
-              "Fee Structure of the School",
-              "Annual Academic Calendar",
-              "List of School Management Committee",
-              "List of Parent Teacher Association Members",
-              "Last Three Years Result of Board Examination",
+              { name: "Fee Structure of the School", file: fee },
+              {
+                name: "Annual Academic Calendar",
+                file: calender,
+              },
+              { name: "List of School Management Committee", file:smc },
+              { name: "List of Parent Teacher Association Members", file: pta },
+              { name: "Last Three Years Result of Board Examination", file: result},
+              
             ].map((doc, index) => (
               <tr key={index} className={index % 2 === 0 ? "bg-gray-200" : ""}>
-                <td className="border border-gray-300 p-3">{doc}</td>
+                <td className="border border-gray-300 p-3">{doc.name}</td>
                 <td className="border border-gray-300 p-3 text-center text-red-500 text-xl">
-                  {index === 4 ? "Not Applicable" : "📄"}
+                  <a href={doc.file} target="_blank" rel="noopener noreferrer" >
+                    {doc.file ? "📄" : "No File"}
+                  </a>
                 </td>
               </tr>
             ))}
+            
           </tbody>
         </table>
 

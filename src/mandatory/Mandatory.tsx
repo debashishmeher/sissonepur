@@ -11,6 +11,7 @@ import smc from "../doc/smc.pdf"
 import pta from "../doc/pta.pdf"
 import result from "../doc/result.pdf"
 import calender from "../doc/calender.pdf"
+import mandatory from "../doc/mandatory.pdf"
 
 const SchoolInfo = () => {
   return (
@@ -73,7 +74,7 @@ const SchoolInfo = () => {
               { name: "Water, Health & Sanitation Certificates", file: water },
               {
                 name: "Link of YouTube video of the Inspection of school",
-                file: "",
+                file: "https://youtu.be/pYIKPrKoGgE?si=z2WKrl_VK015SWLr",
               },
             ].map((doc, index) => (
               <tr key={index} className={index % 2 === 0 ? "bg-gray-200" : ""}>
@@ -124,11 +125,11 @@ const SchoolInfo = () => {
         <table className="w-full border border-gray-300 text-left text-sm md:text-base">
           <tbody>
             {[
-              "Principal",
-              "Total No of Teachers (21 - PGT: 5, TGT: 7, PRT: 9)",
-              "Teachers Section Ratio (2.6:1)",
-              "Details of Special Educator: P Narasimha Murty",
-              "Details of Counsellor and Wellness Trainer: Saptaprayag Khamari",
+              "Principal :-  Mr.Santosh Kumar Bash",
+              "Total No of Teachers :- 48  (PGT: 18, TGT: 20, PRT: 5)",
+              "Teachers Section Ratio :- 1.5:1",
+              "Details of Special Educator :- Saroj Kumar Pardia",
+              "Details of Counsellor and Wellness Trainer :- Pratyush Ranjan Sahu",
             ].map((info, index) => (
               <tr key={index} className={index % 2 === 0 ? "bg-gray-200" : ""}>
                 <td className="border border-gray-300 p-3">{info}</td>
@@ -143,23 +144,32 @@ const SchoolInfo = () => {
         <table className="w-full border border-gray-300 text-left text-sm md:text-base">
           <tbody>
             {[
-              "No. and Size of Classrooms: 29 Rooms of 50 SqM each",
-              "No. and Size of Laboratories: Phy Lab: 74 Sqm, Chem Lab: 74 Sqm, Bio Lab: 74 Sqm, Computer Lab: 74 Sqm",
-              "Internet Facility: Yes (100 MBPS)",
-              "No. of Girls Toilets: 36",
-              "No. of Boys Toilets: 50",
-              "YouTube Video of School Infrastructure",
+              "Total Campus area of The School :- 9530.34 SqM",
+              "No. and Size of Classrooms :- 32 Rooms of 49 SqM each",
+              "No. and Size of Laboratories :- Phy Lab: 55 Sqm, Chem Lab: 55 Sqm, Bio Lab: 83 Sqm, Computer Lab: 64 Sqm, Composite Science Lab: 83 Sqm, Math Lab: 55 Sqm",
+              "Internet Facility :- Yes (100 MBPS)",
+              "No. of Girls Toilets :- 18",
+              "No. of Boys Toilets :- 36",
+              "Link of You Tube Video of the school Inspection covering the school infrastructure",
             ].map((info, index) => (
               <tr key={index} className={index % 2 === 0 ? "bg-gray-200" : ""}>
                 <td className="border border-gray-300 p-3">{info}</td>
                 <td className="border border-gray-300 p-3 text-center text-red-500 text-xl">
-                  {index === 5 ? "▶️" : ""}
+                  <a href="https://youtu.be/pYIKPrKoGgE?si=z2WKrl_VK015SWLr" target="_blank" rel="noopener noreferrer" >
+                    {index === 6 ? "▶️" : ""}
+                  </a>
                 </td>
               </tr>
             ))}
           </tbody>
         </table>
+
+        <h2 className="text-3xl font-bold mt-8 mb-6 text-gray-800 flex flex-wrap gap-1">
+          F. Mandatory Public Disclosure: <a href={mandatory} target="_blank" rel="noopener noreferrer">📄</a>
+        </h2>
+        
       </div>
+      
     </div>
   );
 };

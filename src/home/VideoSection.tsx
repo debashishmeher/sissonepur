@@ -50,10 +50,12 @@ export default function VideoSection() {
       {/* Video Frame */}
       <iframe
         className="w-full h-[300px] md:h-[500px] rounded-lg"
-        src="https://www.youtube.com/embed/dQw4w9WgXcQ?autoplay=1"
+        src="https://www.youtube.com/embed/X_M3FjfLXdI?autoplay=1&si=e4O1KR1lVYfWM5B3&amp;start=7"
         title="Video"
         allowFullScreen
       ></iframe>
+
+     
     </div>
   </div>
 )}

@@ -126,7 +126,7 @@ const SchoolInfo = () => {
           <tbody>
             {[
               "Principal :-  Mr.Santosh Kumar Bash",
-              "Total No of Teachers :- 48  (PGT: 18, TGT: 20, PRT: 5)",
+              "Total No of Teachers :- 48 ",
               "Teachers Section Ratio :- 1.5:1",
               "Details of Special Educator :- Saroj Kumar Pardia",
               "Details of Counsellor and Wellness Trainer :- Pratyush Ranjan Sahu",
@@ -148,8 +148,8 @@ const SchoolInfo = () => {
               "No. and Size of Classrooms :- 32 Rooms of 49 SqM each",
               "No. and Size of Laboratories :- Phy Lab: 55 Sqm, Chem Lab: 55 Sqm, Bio Lab: 83 Sqm, Computer Lab: 64 Sqm, Composite Science Lab: 83 Sqm, Math Lab: 55 Sqm",
               "Internet Facility :- Yes (100 MBPS)",
-              "No. of Girls Toilets :- 18",
-              "No. of Boys Toilets :- 36",
+              "No. of Girls Toilets :- 6",
+              "No. of Boys Toilets :- 6",
               "Link of You Tube Video of the school Inspection covering the school infrastructure",
             ].map((info, index) => (
               <tr key={index} className={index % 2 === 0 ? "bg-gray-200" : ""}>

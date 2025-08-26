@@ -32,7 +32,7 @@ const SchoolInfo = () => {
               ],
               [
                 "Principal Name & Qualification",
-                "Santos Kumar Bash, M.A., B.Ed., LLB",
+                "Santosh Kumar Bash, M.A., B.Ed., LLB",
               ],
               [
                 "School Email",
